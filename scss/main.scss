@@ -1,6 +1,11 @@
 @import 'config';
 @import 'responsiveness';
+@import 'navbar';
 
 body {
-    background-color: $Light-blue;
+    background: $Light-blue;
+
+    p {
+        font-size: 16px;
+    }
 }

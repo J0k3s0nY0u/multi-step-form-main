@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Multi-step form</title>
 
@@ -21,21 +21,28 @@
    <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
-
+  <main class="px-3">
   <!-- Sidebar start -->
-
+<div class="d-flex flex-column column-navbar">
+  <ul class="nav nav-pills flex-column mb-auto">
+    <li class="nav-item">
   Step 1
   Your info
-
+    </li>
+    <li class="nav-item">
   Step 2
   Select plan
-
+    </li>
+  <li class="nav-item">
   Step 3
   Add-ons
-
+  </li>
+  <li class="nav-item">
   Step 4
   Summary
-
+  </li>
+  </ul>
+</div>
   <!-- Sidebar end -->
 
   <!-- Step 1 start -->
@@ -123,7 +130,7 @@
   to email us at support@loremgaming.com.
 
   <!-- Step 5 end -->
-  
+</main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">J0k3s0nY0u</a>.
