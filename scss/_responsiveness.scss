@@ -1,7 +1,9 @@
 @include mobile {
-
+    .column-navbar {
+        background: url(/dist/assets/images/bg-sidebar-mobile.svg);
+    }
 }
 
 @include desktop {
-    
+
 }
