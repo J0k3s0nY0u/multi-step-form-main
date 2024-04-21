@@ -30,7 +30,7 @@
 }
 
 body {
-  background: var(--Cool-gray);
+  background: var(--Light-blue);
   height: 100vh;
   font-family: "Ubuntu" sans-serif;
 }
