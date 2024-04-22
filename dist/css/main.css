@@ -52,6 +52,19 @@
   color: var(--Magnolia);
   margin: 0 0 0 10px;
 }
+.column-navbar .nav-item .nav-link:active .nav-icon {
+  background: var(--Light-blue);
+  color: var(--Marine-blue);
+  border: none;
+}
+.column-navbar .nav-item .nav-link.active {
+  background: none;
+}
+.column-navbar .nav-item .nav-link.active .nav-icon {
+  background: var(--Light-blue);
+  color: var(--Marine-blue);
+  border: none;
+}
 
 .steps {
   margin: 20px 20px 20px 20px;
@@ -61,6 +74,7 @@
 }
 .steps section h1 {
   color: var(--Marine-blue);
+  margin-top: 10px;
 }
 .steps section h2 {
   color: var(--Marine-blue);
@@ -68,14 +82,19 @@
 }
 .steps section form .item-box {
   font-size: 16px;
+  margin-top: 20px;
 }
 .steps section form .item-box .form-control {
   font-size: 16px;
+}
+.steps section form .item-box .form-control:active, .steps section form .item-box .form-control:hover {
+  border: 2px solid var(--Marine-blue);
 }
 .steps section form .button {
   font-size: 16px;
   background: var(--Marine-blue);
   color: var(--Magnolia);
+  margin-top: 70px;
 }
 
 body {

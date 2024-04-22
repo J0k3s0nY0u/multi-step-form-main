@@ -9,6 +9,7 @@
     .nav-item {
 
         .nav-link {
+            
 
             .nav-icon {
                 display: flex;
@@ -33,6 +34,25 @@
                     font-size: 16px;
                     color: var(--Magnolia);
                     margin: 0 0 0 10px;
+                }
+            }
+
+            &:active {
+                
+                .nav-icon {
+                    background: var(--Light-blue);
+                    color: var(--Marine-blue);
+                    border: none;
+                }
+            }
+
+            &.active {
+                background: none;
+
+                .nav-icon {
+                    background: var(--Light-blue);
+                    color: var(--Marine-blue);
+                    border: none;
                 }
             }
         }
