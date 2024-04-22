@@ -57,7 +57,14 @@
   margin: 20px 20px 20px 20px;
 }
 .steps section {
-  visibility: hidden;
+  justify-self: center;
+}
+.steps section h1 {
+  color: var(--Marine-blue);
+}
+.steps section h2 {
+  color: var(--Marine-blue);
+  font-size: 16px;
 }
 
 body {

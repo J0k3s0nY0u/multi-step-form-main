@@ -2,6 +2,14 @@
     margin: 20px 20px 20px 20px;
 
     section {
-        visibility: hidden;
+        justify-self: center;
+
+        h1 {
+            color: var(--Marine-blue);
+        }
+        h2 {
+            color: var(--Marine-blue);
+            font-size: 16px;
+        }
     }
 }
