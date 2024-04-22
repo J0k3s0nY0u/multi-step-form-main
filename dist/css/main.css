@@ -25,14 +25,30 @@
   }
 }
 .column-navbar {
-  width: 280px;
   background-image: url(/dist/assets/images/bg-sidebar-desktop.svg);
+  font-size: 16px;
+  width: 240px;
+  border-radius: 5%;
+}
+.column-navbar .nav-item .nav-link .nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  color: var(--Alabaster);
+  border: 1px solid var(--Alabaster);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
 }
 
 body {
   background: var(--Light-blue);
   height: 100vh;
   font-family: "Ubuntu" sans-serif;
+}
+body h1 {
+  font-family: 700;
 }
 body p {
   font-size: 16px;

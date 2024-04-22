@@ -1,3 +1,24 @@
 .column-navbar {
     background-image: url(/dist/assets/images/bg-sidebar-desktop.svg);
+    font-size: 16px;
+    width: 240px;
+    border-radius: 5%;
+
+    .nav-item {
+
+        .nav-link {
+
+            .nav-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: none;
+                color: var(--Alabaster);
+                border: 1px solid var(--Alabaster);
+                border-radius: 50%;
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
 }
