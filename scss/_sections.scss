@@ -11,5 +11,21 @@
             color: var(--Marine-blue);
             font-size: 16px;
         }
+        form {
+
+            .item-box {
+                font-size: 16px;
+
+                .form-control {
+                    font-size: 16px;
+                }
+            }
+
+            .button {
+                font-size: 16px;
+                background: var(--Marine-blue);
+                color: var(--Magnolia);
+            } 
+        }
     }
 }
