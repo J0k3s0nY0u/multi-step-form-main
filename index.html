@@ -38,7 +38,7 @@
           <li class="nav-item">
             <a href="#step-2" class="nav-link d-flex disabled">
               <div class="nav-icon"><i class="fa-solid fa-2"></i></div>
-              <div class="col">
+              <div class="col nav-text">
                 <p>Step 2</p>
               <h2>Select plan</h2>
               </div>
@@ -47,7 +47,7 @@
           <li class="nav-item">
             <a href="#step-3" class="nav-link d-flex disabled">
               <div class="nav-icon"><i class="fa-solid fa-3"></i></div>
-              <div class="col">
+              <div class="col nav-text">
                 <p>Step 3</p>
               <h2>Add-ons</h2>
               </div>
@@ -56,9 +56,9 @@
           <li class="nav-item">
             <a href="#step-4" class="nav-link d-flex disabled">
               <div class="nav-icon"><i class="fa-solid fa-4"></i></div>
-              <div class="col">
+              <div class="col nav-text">
                 <p>Step 4</p>
-              <h2>Summary</h2>
+                <h2>Summary</h2>
               </div>
             </a>
           </li>
@@ -75,7 +75,7 @@
       
           <div class="item-box">
             <h2>Name</h2>
-            <input type="text" name="name" class="form-control" placeholder="e.g. Stephen King" required>
+            <input type="text" name="name" class="form-control" placeholder="e.g. Stephen King" required  oninvalid="this.setCustomValidity('This Field is required')" onchange="this.setCustomValidity('')" >
           </div>
           <div class="item-box">
             <h2>Email Address</h2>

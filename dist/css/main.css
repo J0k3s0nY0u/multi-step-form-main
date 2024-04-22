@@ -74,9 +74,6 @@
   border: none;
 }
 
-.steps {
-  margin: 20px 20px 20px 20px;
-}
 .steps .hidden {
   display: none;
 }
@@ -98,6 +95,12 @@
 .steps section form .item-box .form-control {
   font-size: 16px;
 }
+.steps section form .item-box .form-control::-moz-placeholder {
+  font-weight: 500;
+}
+.steps section form .item-box .form-control::placeholder, .steps section form .item-box .form-control::target-text {
+  font-weight: 500;
+}
 .steps section form .item-box .form-control:active, .steps section form .item-box .form-control:hover {
   border: 2px solid var(--Marine-blue);
 }
@@ -105,7 +108,7 @@
   font-size: 16px;
   background: var(--Marine-blue);
   color: var(--Magnolia);
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 body {
@@ -139,5 +142,5 @@ body main {
   border-radius: 10px;
 }
 body main .row .steps {
-  margin: 40px 0px 40px 40px;
+  margin: 0 40px 0 0;
 }/*# sourceMappingURL=main.css.map */
