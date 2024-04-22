@@ -8,9 +8,14 @@ body {
     background: var(--Light-blue);
     height: 100vh;
     font-family: 'Ubuntu' sans-serif;
+    color: var(--Cool-gray);
 
     h1 {
-        font-family: 700;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-weight: 500;
     }
 
     p {

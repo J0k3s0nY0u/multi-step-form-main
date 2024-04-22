@@ -28,7 +28,9 @@
   background-image: url(/dist/assets/images/bg-sidebar-desktop.svg);
   font-size: 16px;
   width: 240px;
-  border-radius: 5%;
+  height: 76vh;
+  border-radius: 7%;
+  margin: 10px 10px 10px 10px;
 }
 .column-navbar .nav-item .nav-link .nav-icon {
   display: flex;
@@ -40,15 +42,28 @@
   border-radius: 50%;
   width: 32px;
   height: 32px;
+  margin-top: 9px;
+}
+.column-navbar .nav-item .nav-link .col p {
+  margin: 0 0 0 10px;
+}
+.column-navbar .nav-item .nav-link .col h2 {
+  font-size: 16px;
+  color: var(--Magnolia);
+  margin: 0 0 0 10px;
 }
 
 body {
   background: var(--Light-blue);
   height: 100vh;
   font-family: "Ubuntu" sans-serif;
+  color: var(--Cool-gray);
 }
 body h1 {
-  font-family: 700;
+  font-weight: 700;
+}
+body h2 {
+  font-weight: 500;
 }
 body p {
   font-size: 16px;
