@@ -1,9 +1,22 @@
 @include mobile {
     .column-navbar {
         background: url(/dist/assets/images/bg-sidebar-mobile.svg);
+        height: auto;
+
+        .nav-item {
+            .nav-link {
+                .nav-text {
+                    visibility: hidden;
+                }
+            }
+        }
     }
 }
 
 @include desktop {
-
+    .column-navbar {
+        background-image: url(/dist/assets/images/bg-sidebar-desktop.svg);
+        width: 20vw;
+        height: 76vh;
+    }
 }

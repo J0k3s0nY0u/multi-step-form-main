@@ -19,16 +19,24 @@
   padding: 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1140px) {
   .column-navbar {
     background: url(/dist/assets/images/bg-sidebar-mobile.svg);
+    height: auto;
+  }
+  .column-navbar .nav-item .nav-link .nav-text {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .column-navbar {
+    background-image: url(/dist/assets/images/bg-sidebar-desktop.svg);
+    width: 20vw;
+    height: 76vh;
   }
 }
 .column-navbar {
-  background-image: url(/dist/assets/images/bg-sidebar-desktop.svg);
   font-size: 16px;
-  width: 240px;
-  height: 76vh;
   border-radius: 7%;
   margin: 10px 10px 10px 10px;
 }
@@ -126,7 +134,6 @@ body main {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
-  overflow: hidden;
 }
 body main .row .steps {
   margin: 40px 0px 40px 40px;
