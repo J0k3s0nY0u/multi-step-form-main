@@ -53,11 +53,19 @@
   margin: 0 0 0 10px;
 }
 
+.steps {
+  margin: 20px 20px 20px 20px;
+}
+.steps section {
+  visibility: hidden;
+}
+
 body {
   background: var(--Light-blue);
   height: 100vh;
   font-family: "Ubuntu" sans-serif;
   color: var(--Cool-gray);
+  overflow: hidden;
 }
 body h1 {
   font-weight: 700;
@@ -70,8 +78,15 @@ body p {
   font-weight: 400;
   color: var(--Cool-gray);
 }
+body .container-fluid {
+  width: 80%;
+}
 body main {
   height: 80vh;
-  width: 85%;
+  width: 80vw;
   background: var(--White);
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
