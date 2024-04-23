@@ -40,6 +40,9 @@
   border-radius: 7%;
   margin: 10px 10px 10px 10px;
 }
+.column-navbar .nav-item {
+  display: flex;
+}
 .column-navbar .nav-item .nav-link .nav-icon {
   display: flex;
   justify-content: center;
@@ -74,6 +77,9 @@
   border: none;
 }
 
+.steps {
+  display: flex;
+}
 .steps .hidden {
   display: none;
 }
@@ -117,6 +123,9 @@ body {
   font-family: "Ubuntu" sans-serif;
   color: var(--Cool-gray);
   overflow: hidden;
+}
+body h1, body h2, body p {
+  font-family: "Ubuntu" sans-serif;
 }
 body h1 {
   font-weight: 700;

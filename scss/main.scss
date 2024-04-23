@@ -12,6 +12,10 @@ body {
     color: var(--Cool-gray);
     overflow: hidden;
 
+    h1,h2,p {
+        font-family: 'Ubuntu' sans-serif;
+    }
+
     h1 {
         font-weight: 700;
     }
